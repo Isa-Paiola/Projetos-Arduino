@@ -1,13 +1,16 @@
+//programa que envia sinal alto para a saida 7, a guarda 1 segundo e envia sianl baixo para a saída 7.
 void setup() {
-  // put your setup code here, to run once:
-  pinMode(7,OUTPUT);
+  // define o modo da porta
+pinMode(7,OUTPUT)
 
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-digitalWrite(7, HIGH);
-delay(1000);
+// envia sinal alto
+digitalWrite(7, HIGH); //acende o led
+delay(1000); //aguarda 1 segundo
+//envia sinal baixo
 digitalWrite(7,LOW);
 delay(1000);
 }
