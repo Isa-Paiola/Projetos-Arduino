@@ -1,5 +1,5 @@
 ## Projeto desenvolvido para o arduino
-Projetos:
+Projetos 🚦:
 * Piscar um Led
 * Piscar dois Leds
 * Ligar o Led com um botão
